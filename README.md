@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center">Electron Notification</h3>
+  <h2 align="center">Electron Notification</h2>
 
   <p align="center">
      A simple electron app built to serve as a notification center for my different services such as Protonmail
