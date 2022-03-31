@@ -10,9 +10,9 @@
       <div class="etabs-buttons"></div>
     </div>
     <div class="etabs-views"></div>
-
     <script>
       const TabGroup = require("electron-tabs");
+      const config = require("../config.json");
 
       let tabGroup = new TabGroup({
         newTab: {
@@ -20,7 +20,8 @@
         },
       });
 
-      JSON.parse(process.env.TABS).map((item) => {
+      config?.tabs?.map((item) => {
+        console.log("index line:40", item);
         tabGroup.addTab({
           ...item,
         });

@@ -54,7 +54,14 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    npm install
    ```
-3. Build the app
+3. Rename config.json.sample to config.json
+
+   ```sh
+   mv config.json.sample config.json
+   ```
+
+4. Add the tabs you want to serve notifications from inside the newly created config.json
+5. Build the app
    ```js
    npm run package && npm run make
    ```

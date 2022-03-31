@@ -1,9 +1,6 @@
 const electron = require('electron');
 const app = electron.app;
 
-require('dotenv').config()
-
-
 app.on('ready', function () {
   const mainWindow = new electron.BrowserWindow({
     webPreferences: {
