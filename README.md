@@ -3,10 +3,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/nezhivar/electron-notification">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
   <h3 align="center">Electron Notification</h3>
 
   <p align="center">
@@ -18,7 +14,7 @@
 
 ## About The Project
 
-[![Electron Notification Screen Shot][product-screenshot]]
+![Electron Notification Screen Shot][product-screenshot]
 
 ### Built With
 
