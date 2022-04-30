@@ -1,5 +1,6 @@
 <div id="top"></div>
 
+# [Moved to the NezhOS monorepo](https://github.com/nezhivar/nezhOS/tree/main/apps/notifications)
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
